@@ -1,0 +1,26 @@
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.top-header {
+    > div {
+        display: grid;
+        grid-template-columns: 40% 40% 20%;
+        align-content: center;
+        align-items: center;
+    }
+}
+.main-header {
+    > div {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        align-content: center;
+        align-items: center;
+    }
+}
+.main {
+    &__about {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

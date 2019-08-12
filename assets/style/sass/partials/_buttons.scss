@@ -1,0 +1,46 @@
+.button {
+    font-size: 1.6em;
+    border-radius: $radius;
+    display: inline-block;
+    &__center {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+    }
+    &__default {
+        background: $color--primary;
+        color: $color--white;
+        padding: 10px 25px;
+        text-transform: capitalize;
+        font-weight: bold;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        border: 1px solid darken($color--primary, 5%);
+        &:hover {
+            background: $color--secondary;
+            box-shadow: 0px 15px 20px rgba(228, 224, 18, 0.397);
+            transform: translateY(-4px);
+            border: 1px solid transparent;
+
+        }
+    }
+    &__instagram {
+        background: $color--primary;
+        color: $color--white;
+        padding: 10px 25px;
+        padding-left: 50px;
+        border-radius: $radius;
+        font-weight: bold;
+        position: relative;
+        box-shadow: 1px 1px 60px rgba(0, 0, 0, .2);
+        > span {
+            position: absolute;
+            left: 0;
+            top: 0;
+            padding: 10px;
+            border-top-left-radius: $radius;
+            border-bottom-left-radius: $radius;
+            background: darken($color--primary, 20%);
+        }
+    }
+}

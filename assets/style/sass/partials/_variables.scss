@@ -1,0 +1,19 @@
+$body--color: #f4f4f4;
+$color--primary: #375098;
+$color--text: #474744;
+$color--link: #3498db;
+$color--secondary: #ebc22e;
+$color--base: #fffbe0;
+$color--white: #ffffff;
+$radius: 4px;
+$color--success: #009975;
+
+.margin {
+    padding: 50px 0;
+    margin: 150px 0;
+}
+
+.gradient--blue {
+    background: rgb(55,80,152);
+    background: linear-gradient(90deg, rgba(55,80,152,1) 0%, rgba(5,108,187,1) 100%);
+}
